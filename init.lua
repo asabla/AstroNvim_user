@@ -200,7 +200,7 @@ local config = {
     end
     
     -- Handle indentation
-    map("v", "<S-Tab", "<gv", opts)
+    map("v", "<S-Tab>", "<gv", opts)
     map("v", "<Tab>", ">gv", opts)
 
     -- Move text up and down
